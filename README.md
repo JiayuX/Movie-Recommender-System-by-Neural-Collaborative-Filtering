@@ -15,4 +15,4 @@ We compared the performance of the neural collaborative model to a baseline mode
 
 <img src="https://github.com/JiayuX/Movie-Recommender-System-by-Neural-Collaborative-Filtering/edit/main/comparison.png" width="800"/>
 
-Due to the limited computational resources, we stopped the training at the 30th epoch and didn't tune the hyper-parameters. Although at around the 30th epoch the training curve and metric curves tend to saturate, there has not been a clear sign of overfitting yet. Therefore, training for more epochs may give a better result. Also, if hyper-parameters tuning is performed, the result may be further improved.
+Due to the limited computational resources, we stopped the training at the 30th epoch and didn't tune the hyper-parameters. Although at around the 30th epoch the training curve and metric curves tend to saturate, there has not been a clear sign of overfitting yet. Therefore, training for more epochs may give a better result. Also, if hyper-parameters tuning is performed, the result may be further improved
