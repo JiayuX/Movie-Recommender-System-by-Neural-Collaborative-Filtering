@@ -5,11 +5,11 @@ The dataset is from [Kaggle](https://www.kaggle.com/sherinclaudia/movielens). Th
 
 We treat the rating from the users on the movies as a bianry implicit interaction, i.e. 0 for no interaction and 1 for observed interaction. The positive samples (1) is quite sparse as could be visualized by the image representing the user-movie interaction matrix.
 
-<img src="https://raw.githubusercontent.com/JiayuX/Movie-Recommender-System-by-Neural-Collaborative-Filtering/main/matrix.png" width="500"/>
+<img src="https://raw.githubusercontent.com/JiayuX/Movie-Recommender-System-by-Neural-Collaborative-Filtering/main/matrix.png" width="350"/>
 
 As the original paper described we performed leave-one-out and negative sampling to construct a training set and a validation set, which is used to train and evaluate the model performance. The performance is evaluated by the hit ratio (HR) and normalized discounted cumulative gain (NDCG). With 30 epochs of training, the model loss decreased to ~0.26 and HR and NDCG increased to ~0.39 and ~0.66, respectively.
 
-<img src="https://raw.githubusercontent.com/JiayuX/Movie-Recommender-System-by-Neural-Collaborative-Filtering/main/history.png" width="600"/>
+<img src="https://raw.githubusercontent.com/JiayuX/Movie-Recommender-System-by-Neural-Collaborative-Filtering/main/history.png" width="900"/>
 
 We compared the performance of the neural collaborative model to a baseline model. The baseline model makes recommendation purely based on the popularity of the items, i.e. the more popular a movie is the more probable it is regarded to be interacted by the users. The trained neural collaborative filtering model outperforms the baseline model 29.29% in HR and 32.62% in NDCG!
 
